@@ -618,7 +618,7 @@ img {
 /* 画像を背景に持つエリアとして見出しの領域を確保 */
 .section-title {
     /* 背景画像をCSSで設定する場合 */
-    background-image: url('../img/ポイントトップ画像.jpg'); 
+    background-image: url('../img/pointimg.jpg'); 
     background-size: cover;
     background-position: center top; /* 画像の上部を中央に表示 */
     background-repeat: no-repeat;
