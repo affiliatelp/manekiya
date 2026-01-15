@@ -30,7 +30,7 @@ li {
     
     /* LPのコンテンツ領域の背景色（白） */
     background-color: #ffffff;
-    padding-bottom: 50px;
+    padding-bottom: 12px;
 
     /* モバイルでの左右の余白（コンテンツが画面端に張り付かないように） */
     /* bodyにpaddingを入れる代わりに、lp-containerの子要素で対応 */
@@ -1120,4 +1120,19 @@ img {
     color: #333;
     line-height: 1.2;
     margin-top: 15px;
+}
+
+.company {
+		font-size: 0.5em;
+}
+
+.company a {
+		color: #333;
+		text-decoration: underline;
+}
+
+@media (min-width: 555px) {
+  .company {
+				font-size: 0.7em;
+		}
 }
